@@ -4,11 +4,14 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using UUUMod517.Models;
+using UUUMod517.DAL;
+
 
 namespace UUUMod517.Controllers
 {
     public class OperaController : Controller
     {
+        private OperaContext context = new OperaContext();
         // GET: Opera
         public ActionResult Index()
         {
@@ -38,5 +41,10 @@ namespace UUUMod517.Controllers
         {
            return View( o);
         }
+        public ActionResult Index4(Opera o)
+        {
+            return View(context.Operas.ToList());
+        }
+
     }
 }
