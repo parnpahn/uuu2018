@@ -21,5 +21,22 @@ namespace UUUMod517.Controllers
             };
             return View(o);
         }
+
+        public ActionResult Index2(int ?year)
+        {
+            Opera o = new Opera()
+            {
+                OperaID = 1,
+                Title = "胖胖胖胖",
+                Year = year.Value,
+                Composer = "胖胖胖胖胖胖胖胖"
+            };
+            return View("index",o);
+        }
+
+        public ActionResult Index3(Opera o)
+        {
+           return View( o);
+        }
     }
 }

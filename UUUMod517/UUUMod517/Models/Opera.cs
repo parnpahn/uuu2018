@@ -18,6 +18,7 @@ namespace UUUMod517.Models
         [DisplayName("歌劇名稱")]
         public string Title { get; set; }
 
+        [CheckValidYear]
         [DisplayName("年代")]
         public int Year { get; set; }
 
