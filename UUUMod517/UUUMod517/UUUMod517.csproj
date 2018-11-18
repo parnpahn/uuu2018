@@ -121,6 +121,7 @@
     <Content Include="Views\Home\Index3.cshtml" />
     <Content Include="Views\Home\Index4.cshtml" />
     <Content Include="Views\Home\Index5.cshtml" />
+    <Content Include="Views\Opera\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -130,7 +131,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Opera\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

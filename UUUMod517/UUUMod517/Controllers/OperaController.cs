@@ -14,9 +14,12 @@ namespace UUUMod517.Controllers
         {
             Opera o = new Opera()
             {
-                OperaID=1,Title="胖胖胖胖",Year=107,Composer="胖胖胖胖胖胖胖胖"
-            }
-            return View();
+                OperaID = 1,
+                Title = "胖胖胖胖",
+                Year = 107,
+                Composer = "胖胖胖胖胖胖胖胖"
+            };
+            return View(o);
         }
     }
 }
