@@ -13,5 +13,14 @@ namespace UUUMod517.Controllers
         {
             return View();
         }
+
+        public string Index2()
+        {
+            return "Hello MVC";
+        }
+        public ActionResult Index3()
+        {
+            return View();
+        }
     }
 }
