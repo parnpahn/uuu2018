@@ -37,6 +37,14 @@ namespace UUUMod517.Controllers
 
             return View();
         }
+
+        public ActionResult Index5()
+        {
+            member m = new member()
+            { id = 1, name = "parnpahn" };
+
+            return View(m);
+        }
     }
 
 
