@@ -1,4 +1,4 @@
-﻿
+﻿@model IEnumerable<UUUMod517.Models.Opera>
 @{
     Layout = null;
 }
@@ -12,6 +12,12 @@
 </head>
 <body>
     <div> 
+        <ul>
+            @foreach (var item in Model)
+            {
+                <ul>@item.Title @item.Composer @item.Year </ul>
+            }
+        </ul>
     </div>
 </body>
 </html>
