@@ -15,7 +15,7 @@ namespace UUUMod517.Models
 
         [Required(ErrorMessage ="歌劇名稱不得為空白")]
         [StringLength(200)]
-        [DisplayName("")]
+        [DisplayName("歌劇名稱")]
         public string Title { get; set; }
 
         [DisplayName("年代")]
