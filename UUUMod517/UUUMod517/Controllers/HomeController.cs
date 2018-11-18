@@ -20,6 +20,10 @@ namespace UUUMod517.Controllers
         }
         public ActionResult Index3()
         {
+            ViewData["data"] = System.DateTime.Now;
+            ViewBag.data2 = System.DateTime.Now;
+
+
             return View();
         }
     }
