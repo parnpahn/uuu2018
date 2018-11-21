@@ -13,7 +13,7 @@ namespace UUUMod517.Models
         public int OperaID { get; set; }
 
 
-        [Required(ErrorMessage ="歌劇名稱不得為空白")]
+        [Required(ErrorMessage ="歌劇名稱XX不得為空白")]
         [StringLength(200)]
         [DisplayName("歌劇名稱")]
         public string Title { get; set; }
